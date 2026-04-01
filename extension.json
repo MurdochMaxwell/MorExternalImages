@@ -1,0 +1,35 @@
+{
+  "name": "MorExternalImages",
+  "version": "1.0.0",
+  "author": [
+    "Maxwell Murdoch"
+  ],
+  "url": "https://github.com/MurdochMaxwell/MorExternalImages",
+  "descriptionmsg": "morexternalimages-desc",
+  "type": "parserhook",
+  "license-name": "The Unlicense",
+
+  "AutoloadNamespaces": {
+    "MediaWiki\\Extension\\MorExternalImages\\": "includes/"
+  },
+
+  "Hooks": {
+    "ParserFirstCallInit": "MediaWiki\\Extension\\MorExternalImages\\Hooks::onParserFirstCallInit"
+  },
+
+  "MessagesDirs": {
+    "MorExternalImages": [
+      "i18n"
+    ]
+  },
+
+  "config": {
+    "MorExternalImagesAllowedDomains": {
+      "value": [
+        "pbs.twimg.com"
+      ]
+    }
+  },
+
+  "manifest_version": 2
+}
