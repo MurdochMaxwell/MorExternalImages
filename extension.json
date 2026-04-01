@@ -8,28 +8,24 @@
   "descriptionmsg": "morexternalimages-desc",
   "type": "parserhook",
   "license-name": "The Unlicense",
-
   "AutoloadNamespaces": {
     "MediaWiki\\Extension\\MorExternalImages\\": "includes/"
   },
-
   "Hooks": {
     "ParserFirstCallInit": "MediaWiki\\Extension\\MorExternalImages\\Hooks::onParserFirstCallInit"
   },
-
   "MessagesDirs": {
     "MorExternalImages": [
       "i18n"
     ]
   },
-
   "config": {
     "MorExternalImagesAllowedDomains": {
       "value": [
-        "pbs.twimg.com"
+        "twimg.com",
+        "tumblr.com"
       ]
     }
   },
-
   "manifest_version": 2
 }
