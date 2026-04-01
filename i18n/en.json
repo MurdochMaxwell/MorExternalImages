@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [
+      "Maxwell Murdoch"
+    ]
+  },
+  "morexternalimages-desc": "Allows safe embedding of external images from approved domains using the <extimg> tag"
+}
